@@ -81,7 +81,7 @@ with open(FILE_NAME, "r") as f:
     
     f.readline()
     emissions = [int(p) for p in f.readline()[1: -1].split(',')]
-    print(emissions)
+    
 f.close()
 
 
