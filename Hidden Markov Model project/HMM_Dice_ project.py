@@ -1,6 +1,6 @@
 import numpy as np
 
-#Gwid:35796617 try InputFile7
+# try InputFile7
 
 #Hidden Markov Model
 #Hidden States X=[d1, d2, d3]
