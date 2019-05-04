@@ -1,4 +1,4 @@
-﻿I have learned:
+﻿I have learned from this project:
 
 ctrl +4 Spyder注释快捷键
 
@@ -32,6 +32,7 @@ open('cdays-4-result.txt', 'w').write('%s' % '\n'.join(result)) #保存入结果
         int(p) for p in f.readline()[1: -1].split(',') 
             #[1:-1] means extract the substring，remove bracket
             split() method returns a list of strings after breaking the given string by the specified separator.
+            int(p) is change the p type from string to int. For split makes it to be string list ['2','3','1','1'] instead of [2,3,1,1]
    
    *close file
       "f.close()"
